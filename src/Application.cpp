@@ -18,6 +18,7 @@ static const struct
     {   0.f,  0.6f, 0.f, 0.f, 1.f }
 };
  
+ 
 static const char* vertex_shader_text =
 "#version 110\n"
 "uniform mat4 MVP;\n"
