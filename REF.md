@@ -7,3 +7,5 @@
 [Awsome Discord Server](https://discord.gg/seyXJsar)
 <br>
 [How to Make a Logger](https://www.codeproject.com/tips/987850/logging-in-cplusplus)
+<br>
+[How to Setup CMake](https://cliutils.gitlab.io/modern-cmake/modern-cmake.pdf)

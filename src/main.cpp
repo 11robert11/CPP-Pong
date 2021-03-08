@@ -6,7 +6,7 @@
 
 int main()
 {
-    std::cout << "Sum" << logger(10, 10) >> "\n";
+    std::cout << "Sum" << logger(10, 10);
     return 0;
     /*
     if(!glfwInit())
