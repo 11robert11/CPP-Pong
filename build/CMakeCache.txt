@@ -144,16 +144,16 @@ CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 CMAKE_PROJECT_NAME:STATIC=MyProject
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=1.0
+CMAKE_PROJECT_VERSION:STATIC=0.0.1
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MAJOR:STATIC=1
+CMAKE_PROJECT_VERSION_MAJOR:STATIC=0
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_MINOR:STATIC=0
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=
+CMAKE_PROJECT_VERSION_PATCH:STATIC=1
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
@@ -225,12 +225,6 @@ MyProject_BINARY_DIR:STATIC=/home/robertbarnett/Documents/programming/ccpp/proje
 
 //Value Computed by CMake
 MyProject_SOURCE_DIR:STATIC=/home/robertbarnett/Documents/programming/ccpp/project
-
-//Value Computed by CMake
-Project_BINARY_DIR:STATIC=/home/robertbarnett/Documents/programming/ccpp/project/build
-
-//Value Computed by CMake
-Project_SOURCE_DIR:STATIC=/home/robertbarnett/Documents/programming/ccpp/project
 
 
 ########################

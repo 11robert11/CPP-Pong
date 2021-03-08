@@ -8,10 +8,14 @@
 					"build" : ".",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "3.19.6"
+						"string" : "3.19"
 					},
 					"projectIndex" : 0,
-					"source" : "."
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
 				}
 			],
 			"name" : "Debug",
@@ -22,10 +26,23 @@
 					[
 						0
 					],
-					"name" : "MyProject"
+					"name" : "MyProject",
+					"targetIndexes" : 
+					[
+						0
+					]
 				}
 			],
-			"targets" : []
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "projectRunable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-projectRunable-Debug-e95d0845e4fd6b945093.json",
+					"name" : "projectRunable",
+					"projectIndex" : 0
+				}
+			]
 		}
 	],
 	"kind" : "codemodel",

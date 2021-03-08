@@ -831,7 +831,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "1.0"
+			"value" : "0.0.1"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_MAJOR",
@@ -843,7 +843,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "1"
+			"value" : "0"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_MINOR",
@@ -867,7 +867,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : ""
+			"value" : "1"
 		},
 		{
 			"name" : "CMAKE_PROJECT_VERSION_TWEAK",
@@ -1175,30 +1175,6 @@
 		},
 		{
 			"name" : "MyProject_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/robertbarnett/Documents/programming/ccpp/project"
-		},
-		{
-			"name" : "Project_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/robertbarnett/Documents/programming/ccpp/project/build"
-		},
-		{
-			"name" : "Project_SOURCE_DIR",
 			"properties" : 
 			[
 				{

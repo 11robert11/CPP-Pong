@@ -1,5 +1,7 @@
-cmake_minimum_required(VERSION 3.19.6)
+cmake_minimum_required(VERSION 3.19)
+project(MyProject VERSION 0.0.1)
 
-project(MyProject LANGUAGES CXX)
 
-add_library(STATIC includes/logger.h)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../bin)
+
+add_executable(projectRunable src/)

@@ -1,0 +1,6 @@
+# ninja log v5
+635	892	1615235037347771510	../bin/projectRunable	e0dbcc52f1a3457
+0	634	1615235037091092804	CMakeFiles/projectRunable.dir/src/main.cpp.o	d581d85c1b2cf1c8
+0	6	0	clean	a31eedcededa8236
+1	672	1615234995639148924	CMakeFiles/runable.dir/src/main.cpp.o	e129bf729986612c
+673	935	1615234995899161116	../bin/runable	b2847be0b05d7f17
