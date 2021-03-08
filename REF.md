@@ -1,2 +1,9 @@
 [GLFW Manual](https://www.glfw.org/GLFWReference271.pdf)
 <br>
+[Markdown Syntax](https://www.markdownguide.org/basic-syntax)
+<br>
+[Header Files](https://www.learncpp.com/cpp-tutorial/header-files/)
+<br>
+[Awsome Discord Server](https://discord.gg/seyXJsar)
+<br>
+[How to Make a Logger](https://www.codeproject.com/tips/987850/logging-in-cplusplus)
