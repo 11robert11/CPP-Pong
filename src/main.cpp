@@ -1,14 +1,12 @@
-#include <GL/gl.h>
-#include <GLFW/glfw3.h>
 #include <cstdlib>
 #include <stdlib.h>
 #include <stdio.h>
 #include <iostream>
-#include "add.h"
+#include "logger.h"
 
 int main()
 {
-    std::cout << "Sum" << add(10, 10);
+    std::cout << "Sum" << logger(10, 10) >> "\n";
     return 0;
     /*
     if(!glfwInit())
