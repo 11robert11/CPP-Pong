@@ -3,5 +3,5 @@ project(MyProject VERSION 0.0.1)
 
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ../bin)
-
-add_executable(projectRunable src/)
+aux_source_directory(src/ SRC_LIST)
+add_executable(projectRunable ${SRC_LIST})

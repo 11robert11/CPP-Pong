@@ -67,6 +67,18 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 
 build cmake_object_order_depends_target_projectRunable: phony || CMakeFiles/projectRunable.dir
 
+build CMakeFiles/projectRunable.dir/src/add.cpp.o: CXX_COMPILER__projectRunable_Debug ../src/add.cpp || cmake_object_order_depends_target_projectRunable
+  DEP_FILE = CMakeFiles/projectRunable.dir/src/add.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/projectRunable.dir
+  OBJECT_FILE_DIR = CMakeFiles/projectRunable.dir/src
+
+build CMakeFiles/projectRunable.dir/src/ball.cpp.o: CXX_COMPILER__projectRunable_Debug ../src/ball.cpp || cmake_object_order_depends_target_projectRunable
+  DEP_FILE = CMakeFiles/projectRunable.dir/src/ball.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = CMakeFiles/projectRunable.dir
+  OBJECT_FILE_DIR = CMakeFiles/projectRunable.dir/src
+
 build CMakeFiles/projectRunable.dir/src/main.cpp.o: CXX_COMPILER__projectRunable_Debug ../src/main.cpp || cmake_object_order_depends_target_projectRunable
   DEP_FILE = CMakeFiles/projectRunable.dir/src/main.cpp.o.d
   FLAGS = -g
@@ -81,7 +93,7 @@ build CMakeFiles/projectRunable.dir/src/main.cpp.o: CXX_COMPILER__projectRunable
 #############################################
 # Link the executable ../bin/projectRunable
 
-build ../bin/projectRunable: CXX_EXECUTABLE_LINKER__projectRunable_Debug CMakeFiles/projectRunable.dir/src/main.cpp.o
+build ../bin/projectRunable: CXX_EXECUTABLE_LINKER__projectRunable_Debug CMakeFiles/projectRunable.dir/src/add.cpp.o CMakeFiles/projectRunable.dir/src/ball.cpp.o CMakeFiles/projectRunable.dir/src/main.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/projectRunable.dir
   POST_BUILD = :
