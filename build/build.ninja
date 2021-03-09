@@ -87,21 +87,21 @@ build CMakeFiles/projectRunable.dir/src/main.cpp.o: CXX_COMPILER__projectRunable
 
 
 #############################################
-# Link the executable ..buildOut/projectRunable
+# Link the executable ../buildOut/projectRunable
 
-build ..buildOut/projectRunable: CXX_EXECUTABLE_LINKER__projectRunable_Debug CMakeFiles/projectRunable.dir/src/add.cpp.o CMakeFiles/projectRunable.dir/src/main.cpp.o
+build ../buildOut/projectRunable: CXX_EXECUTABLE_LINKER__projectRunable_Debug CMakeFiles/projectRunable.dir/src/add.cpp.o CMakeFiles/projectRunable.dir/src/main.cpp.o
   FLAGS = -g
   LINK_LIBRARIES = -lSDL2
   OBJECT_DIR = CMakeFiles/projectRunable.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = ..buildOut/projectRunable
+  TARGET_FILE = ../buildOut/projectRunable
   TARGET_PDB = projectRunable.dbg
 
 # =============================================================================
 # Target aliases.
 
-build projectRunable: phony ..buildOut/projectRunable
+build projectRunable: phony ../buildOut/projectRunable
 
 # =============================================================================
 # Folder targets.
@@ -111,7 +111,7 @@ build projectRunable: phony ..buildOut/projectRunable
 #############################################
 # Folder: /home/robertbarnett/Documents/programming/ccpp/project/build
 
-build all: phony ..buildOut/projectRunable
+build all: phony ../buildOut/projectRunable
 
 # =============================================================================
 # Built-in targets
