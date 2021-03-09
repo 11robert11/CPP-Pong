@@ -1,17 +1,12 @@
 [
 {
   "directory": "/home/robertbarnett/Documents/programming/ccpp/project/build",
-  "command": "/usr/bin/g++ -g -o CMakeFiles/projectRunable.dir/src/add.cpp.o -c /home/robertbarnett/Documents/programming/ccpp/project/src/add.cpp",
+  "command": "/usr/bin/g++ -I../includes -g -o CMakeFiles/projectRunable.dir/src/add.cpp.o -c /home/robertbarnett/Documents/programming/ccpp/project/src/add.cpp",
   "file": "/home/robertbarnett/Documents/programming/ccpp/project/src/add.cpp"
 },
 {
   "directory": "/home/robertbarnett/Documents/programming/ccpp/project/build",
-  "command": "/usr/bin/g++ -g -o CMakeFiles/projectRunable.dir/src/ball.cpp.o -c /home/robertbarnett/Documents/programming/ccpp/project/src/ball.cpp",
-  "file": "/home/robertbarnett/Documents/programming/ccpp/project/src/ball.cpp"
-},
-{
-  "directory": "/home/robertbarnett/Documents/programming/ccpp/project/build",
-  "command": "/usr/bin/g++ -g -o CMakeFiles/projectRunable.dir/src/main.cpp.o -c /home/robertbarnett/Documents/programming/ccpp/project/src/main.cpp",
+  "command": "/usr/bin/g++ -I../includes -g -o CMakeFiles/projectRunable.dir/src/main.cpp.o -c /home/robertbarnett/Documents/programming/ccpp/project/src/main.cpp",
   "file": "/home/robertbarnett/Documents/programming/ccpp/project/src/main.cpp"
 }
 ]

@@ -1,13 +1,7 @@
 # ninja log v5
-673	935	1615234995899161116	../bin/runable	b2847be0b05d7f17
-1	672	1615234995639148924	CMakeFiles/runable.dir/src/main.cpp.o	e129bf729986612c
-0	6	0	clean	a31eedcededa8236
-0	634	1615235037091092804	CMakeFiles/projectRunable.dir/src/main.cpp.o	d581d85c1b2cf1c8
-635	892	1615235037347771510	../bin/projectRunable	e0dbcc52f1a3457
-1	25	1615235671374420100	CMakeFiles/projectRunable.dir/src/ball.cpp.o	8dfba0606fc1175b
-0	32	1615235671384420576	CMakeFiles/projectRunable.dir/src/add.cpp.o	1ec2d18343784cb2
-32	205	1615235671554428651	../bin/projectRunable	2624cb5de632816a
-1	60	1615235813174483393	CMakeFiles/projectRunable.dir/src/add.cpp.o	1ec2d18343784cb2
-2	60	1615235813174483393	CMakeFiles/projectRunable.dir/src/ball.cpp.o	8dfba0606fc1175b
-7	574	1615235813691174562	CMakeFiles/projectRunable.dir/src/main.cpp.o	d581d85c1b2cf1c8
-574	735	1615235813847848659	../bin/projectRunable	2624cb5de632816a
+1	36	1615249125027058659	CMakeFiles/projectRunable.dir/src/add.cpp.o	a0efee9e85b75df0
+516	691	1615249125680422288	../bin/projectRunable	c7d1cd35f289698c
+1	516	1615249125507080916	CMakeFiles/projectRunable.dir/src/main.cpp.o	77eb575605b0b436
+0	5	0	clean	a31eedcededa8236
+1	169	1615249232545381096	bin/projectRunable	58d0999d9a61e305
+1	25	1615246943460517911	CMakeFiles/projectRunable.dir/src/ball.cpp.o	5bb8388a101032c5

@@ -1019,7 +1019,7 @@
 				}
 			],
 			"type" : "BOOL",
-			"value" : "NO"
+			"value" : "FALSE"
 		},
 		{
 			"name" : "CMAKE_SKIP_RPATH",
@@ -1035,7 +1035,7 @@
 				}
 			],
 			"type" : "BOOL",
-			"value" : "NO"
+			"value" : "FALSE"
 		},
 		{
 			"name" : "CMAKE_STATIC_LINKER_FLAGS",

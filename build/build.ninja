@@ -70,18 +70,14 @@ build cmake_object_order_depends_target_projectRunable: phony || CMakeFiles/proj
 build CMakeFiles/projectRunable.dir/src/add.cpp.o: CXX_COMPILER__projectRunable_Debug ../src/add.cpp || cmake_object_order_depends_target_projectRunable
   DEP_FILE = CMakeFiles/projectRunable.dir/src/add.cpp.o.d
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/projectRunable.dir
-  OBJECT_FILE_DIR = CMakeFiles/projectRunable.dir/src
-
-build CMakeFiles/projectRunable.dir/src/ball.cpp.o: CXX_COMPILER__projectRunable_Debug ../src/ball.cpp || cmake_object_order_depends_target_projectRunable
-  DEP_FILE = CMakeFiles/projectRunable.dir/src/ball.cpp.o.d
-  FLAGS = -g
+  INCLUDES = -I../includes
   OBJECT_DIR = CMakeFiles/projectRunable.dir
   OBJECT_FILE_DIR = CMakeFiles/projectRunable.dir/src
 
 build CMakeFiles/projectRunable.dir/src/main.cpp.o: CXX_COMPILER__projectRunable_Debug ../src/main.cpp || cmake_object_order_depends_target_projectRunable
   DEP_FILE = CMakeFiles/projectRunable.dir/src/main.cpp.o.d
   FLAGS = -g
+  INCLUDES = -I../includes
   OBJECT_DIR = CMakeFiles/projectRunable.dir
   OBJECT_FILE_DIR = CMakeFiles/projectRunable.dir/src
 
@@ -91,20 +87,21 @@ build CMakeFiles/projectRunable.dir/src/main.cpp.o: CXX_COMPILER__projectRunable
 
 
 #############################################
-# Link the executable ../bin/projectRunable
+# Link the executable ..buildOut/projectRunable
 
-build ../bin/projectRunable: CXX_EXECUTABLE_LINKER__projectRunable_Debug CMakeFiles/projectRunable.dir/src/add.cpp.o CMakeFiles/projectRunable.dir/src/ball.cpp.o CMakeFiles/projectRunable.dir/src/main.cpp.o
+build ..buildOut/projectRunable: CXX_EXECUTABLE_LINKER__projectRunable_Debug CMakeFiles/projectRunable.dir/src/add.cpp.o CMakeFiles/projectRunable.dir/src/main.cpp.o
   FLAGS = -g
+  LINK_LIBRARIES = -lSDL2
   OBJECT_DIR = CMakeFiles/projectRunable.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = ../bin/projectRunable
+  TARGET_FILE = ..buildOut/projectRunable
   TARGET_PDB = projectRunable.dbg
 
 # =============================================================================
 # Target aliases.
 
-build projectRunable: phony ../bin/projectRunable
+build projectRunable: phony ..buildOut/projectRunable
 
 # =============================================================================
 # Folder targets.
@@ -114,7 +111,7 @@ build projectRunable: phony ../bin/projectRunable
 #############################################
 # Folder: /home/robertbarnett/Documents/programming/ccpp/project/build
 
-build all: phony ../bin/projectRunable
+build all: phony ..buildOut/projectRunable
 
 # =============================================================================
 # Built-in targets

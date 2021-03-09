@@ -1,12 +1,11 @@
+#include "add.h"
 #include <iostream>
-//#include "logger.h"
-//#include "ball.h"
 
 int main()
 {
 
     std::cout << "Hello World" << "\n";
-    
+    //std::cout << add(10, 20) << "\n";
 
     return 0;
 }
