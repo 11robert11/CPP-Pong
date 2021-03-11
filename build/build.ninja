@@ -91,7 +91,7 @@ build CMakeFiles/projectRunable.dir/src/main.cpp.o: CXX_COMPILER__projectRunable
 
 build ../buildOut/projectRunable: CXX_EXECUTABLE_LINKER__projectRunable_Debug CMakeFiles/projectRunable.dir/src/add.cpp.o CMakeFiles/projectRunable.dir/src/main.cpp.o
   FLAGS = -g
-  LINK_LIBRARIES = -lSDL2
+  LINK_LIBRARIES = -lSDL2  -lm
   OBJECT_DIR = CMakeFiles/projectRunable.dir
   POST_BUILD = :
   PRE_LINK = :
