@@ -1,5 +1,7 @@
 <strong>Work In Progress</strong>
 <br>
+[Sister Project](https://github.com/11robert11/pong)
+<br>
 A really cool project
 <br>
 poop -chris
